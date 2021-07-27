@@ -1,0 +1,35 @@
+.banner-inner {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.banner-block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #fff;
+   padding-top: 150px;
+   padding-bottom: 100px;
+}
+
+@media (max-width: 576px) {
+    .banner-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+     }
+
+    .banner-left {
+         text-align: center;
+    }
+
+    .banner-left h1 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .banner-right {
+        display: none;
+    }
+}
